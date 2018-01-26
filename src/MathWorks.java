@@ -5,6 +5,8 @@ public class MathWorks {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
+		
+		//final allows us to set the value of a variable that does not change
 		final double PI = 3.14;
 		
 		//Math class, its a static class since Math does not change
