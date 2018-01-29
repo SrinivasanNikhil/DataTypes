@@ -14,6 +14,8 @@ public class MathWorks {
 		
 		System.out.println(PI);
 		System.out.println(SPEED_OF_LIGHT);
+		//final allows us to set the value of a variable that does not change
+	
 		
 		//Math class, its a static class since Math does not change
 		//No need to make an object of the class
