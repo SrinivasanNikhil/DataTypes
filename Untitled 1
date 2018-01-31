@@ -1,0 +1,8 @@
+Task:
+
+a. Create a new Project called called DiceWinner
+b. In this project create a new Java Class called DiceGame and work within its main method.
+c.Take the names of 2 users who will be playing this Dice game. Make sure you are able to take names that have spaces in it.
+d. Assume that the dice is 6 sided and has numbers going from 0 to 5.
+e. Roll a pair of dice for each user.
+f. Print out the name of the user and the value of the rolls of their 2 dice.

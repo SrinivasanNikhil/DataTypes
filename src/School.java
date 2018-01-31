@@ -7,9 +7,8 @@ public class School {
 		
 		Person aPerson = new Person("Matthew", 23,2.3,24);
 		
-		aPerson.getName()
+		aPerson.getName();
 		
-		Syste;
 		
 		
 		
