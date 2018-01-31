@@ -19,8 +19,8 @@ public class Person {
 	/**
 	 * @return the name
 	 */
-	public String getName() {
-		return name;
+	public void getName() {
+		System.out.println(name);
 	}
 	/**
 	 * @param name the name to set
