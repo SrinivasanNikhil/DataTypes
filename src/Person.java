@@ -5,13 +5,15 @@ public class Person {
 	int age;
 	double height;
 	double weight;
+	double gpa;
 	
-	public Person(String aName, int aAge, double aHeight, double aWeight)
+	public Person(String aName, int aAge, double aHeight, double aWeight, double aGpa)
 	{
 		name = aName;
 		age = aAge;
 		height = aHeight;
 		weight = aWeight;
+		gpa = aGpa;
 		
 	}
 	

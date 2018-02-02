@@ -5,9 +5,21 @@ public class School {
 		// TODO Auto-generated method stub
 
 		
-		Person aPerson = new Person("Matthew", 23,2.3,24);
+		//Declare person objects here
 		
-		aPerson.getName();
+		
+		// calculate their average height, weight, gpa
+		
+		
+		
+		
+		//Take inputs for name, age, height, weight, gpa
+		
+		//create new person object based on the inputs
+		
+		//recalculate average height/weight/gpa
+		
+		
 		
 		
 		
