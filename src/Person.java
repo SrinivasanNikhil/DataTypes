@@ -3,69 +3,89 @@ public class Person {
 
 	String name;
 	int age;
-	double height;
-	double weight;
 	double gpa;
+	String major;
 	
-	public Person(String aName, int aAge, double aHeight, double aWeight, double aGpa)
+	public Person(String aName, int aAge, String aMajor, double aGpa)
 	{
 		name = aName;
 		age = aAge;
-		height = aHeight;
-		weight = aWeight;
 		gpa = aGpa;
+		major = aMajor; 
 		
 	}
-	
-	
+
 	/**
 	 * @return the name
 	 */
-	public void getName() {
-		System.out.println(name);
+	public String getName() {
+		return name;
 	}
+
 	/**
 	 * @param name the name to set
 	 */
-	public void setName(String pName) {
-		name = pName;
+	public void setName(String pname) {
+		name = pname;
 	}
+
 	/**
 	 * @return the age
 	 */
 	public int getAge() {
 		return age;
 	}
+
 	/**
 	 * @param age the age to set
 	 */
-	public void setAge(int pAge) {
-		age = pAge;
+	public void setAge(int page) {
+		age = page;
 	}
+
 	/**
-	 * @return the height
+	 * @return the gpa
 	 */
-	public double getHeight() {
-		return height;
+	public double getGpa() {
+		return gpa;
 	}
+
 	/**
-	 * @param height the height to set
+	 * @param gpa the gpa to set
 	 */
-	public void setHeight(double pHeight) {
-		height = pHeight;
+	public void setGpa(double pgpa) {
+		gpa = pgpa;
 	}
+
 	/**
-	 * @return the weight
+	 * @return the major
 	 */
-	public double getWeight() {
-		return weight;
+	public String getMajor() {
+		return major;
 	}
+
 	/**
-	 * @param weight the weight to set
+	 * @param major the major to set
 	 */
-	public void setWeight(double pWeight) {
-		weight = pWeight;
+	public void setMajor(String pmajor) {
+		major = pmajor;
 	}
+	
+	public void printInfo()
+	{
+		System.out.println("#########################");
+		System.out.println("Terry College of Business");
+		System.out.println("Name: " + name);
+		System.out.println("Major: " + major);
+		System.out.println("GPA: " + gpa);
+		System.out.println("#########################");
+		
+	}
+	
+	
+	
+		
+	
 	
 	
 }

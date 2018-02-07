@@ -6,3 +6,21 @@ c.Take the names of 2 users who will be playing this Dice game. Make sure you ar
 d. Assume that the dice is 6 sided and has numbers going from 0 to 5.
 e. Roll a pair of dice for each user.
 f. Print out the name of the user and the value of the rolls of their 2 dice.
+
+
+
+Assignment
+
+You have the templates of 2 classes, Person and Program.
+The Person class has 4 attributes, name, age, major and gpa. 
+There is a constructor for the class that is used to make Person objects. 
+There are setter/mutator methods and getter/accessor methods for those attributes.
+There is also a printInfo() method that prints out information about the person.
+
+The Program class has a main method that has 5 Person objects person1 to person5 declared an initialized. 
+The main method also has a Scanner object that is used to take input for a person number and a newGPA. 
+
+Your task is as follows: Based on the input of personSelect write the change their GPA and then print out 
+their information. For instance if the user types in 1 then select person 1 and  print out their information. 
+Do it for all possible inputs from 1 to 5. If however the input is not 1 to 5 then inform the user they have 
+to have to type in an appropriate person number
